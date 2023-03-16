@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+h1 {
+  padding: 2rem;
+  background-color: lightblue;
+  font-size: 2.5rem;
+}
+p {
+  margin: 2rem;
+  font-size: 1.2rem;
+}
+button {
+  transition: 0.3s;
+}
+button:hover {
+  transform: scale(1.1);
+  background-color: lightcyan;
+}
+hr {
+  /* width: 70%; */
+  margin: 1rem auto;
+}
+.songs {
+  border: 1px solid;
+  text-align: left;
+  padding: 0.5rem 1rem;
+  width: 30vw;
+  margin: 0.5rem auto;
+  border-radius: 5px;
+}
+.songs:hover {
+  background-color: rgb(233, 233, 233);
+}
+@media screen and (max-width: 800px) {
+  .songs {
+    width: 40vw;
+  }
+}
+@media screen and (max-width: 650px) {
+  .songs {
+    width: 50vw;
+  }
+}
+@media screen and (max-width: 500px) {
+  .songs {
+    width: 60vw;
+  }
+}
+@media screen and (max-width: 400px) {
+  .songs {
+    width: 80vw;
+  }
+}
